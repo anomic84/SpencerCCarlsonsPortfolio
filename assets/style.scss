@@ -1,0 +1,75 @@
+$orange: rgb(255, 170, 85);
+$darkblue: rgb(8, 108, 175);
+$blue: rgb(32, 156, 238);
+$red: rgb(83, 14, 26);
+$redhover: rgb(182, 109, 121);
+$gray: rgb(43, 37, 34);
+$green: rgb(44, 55, 20);
+$white: rgb(193, 198, 191);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+body {
+
+    .navbar {
+        background-color: $white  !important;
+
+        a {
+            font-family: 'Helvetica';
+            color: $red  !important;
+        }
+
+        a:hover {
+            font-family: 'Helvetica';
+            color: $redhover  !important;
+        }
+
+
+    }
+
+    .hero {
+        display: flex;
+        background-color: $red;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100vw;
+    }
+
+    .innerbar {
+        background: repeating-linear-gradient(to bottom,
+                $white,
+                $white 33.33%,
+
+                $red,
+                $red 33.33%,
+                $white,
+            );
+        background-size: 100%;
+
+    }
+
+    .hero-image {
+        display: block;
+        margin: auto;
+        border: 10px solid $red;
+    }
+
+    .about-me {
+        display: flex;
+        background-color: $white;
+        width: 100vw;
+
+        .about {
+            width: 100vw;
+        }
+    }
+
+}
