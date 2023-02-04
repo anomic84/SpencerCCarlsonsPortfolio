@@ -5,6 +5,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: rgb(193, 198, 191);
+}
 body .navbar {
   background-color: rgb(193, 198, 191) !important;
 }
@@ -36,7 +39,45 @@ body .about-me {
   display: flex;
   background-color: rgb(193, 198, 191);
   width: 100vw;
+  padding-bottom: 50px;
 }
 body .about-me .about {
   width: 100vw;
+  font-family: "Helvetica";
+  font-size: large;
+  color: rgb(83, 14, 26) !important;
+}
+body .works {
+  width: 100vw;
+  font-family: "Helvetica";
+  background-color: rgb(193, 198, 191);
+}
+body .works .works-left img {
+  border: 10px solid rgb(83, 14, 26);
+  max-width: 100%;
+  max-height: 100%;
+}
+body .works .works-left img:hover {
+  transition: 0.3s;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+body .works .works-left .title {
+  color: rgb(193, 198, 191);
+  background-color: rgb(83, 14, 26);
+  text-decoration: none !important;
+}
+body .works .works-right img {
+  border: 10px solid rgb(83, 14, 26);
+  max-width: 100%;
+  max-height: 100%;
+}
+body .works .works-right img:hover {
+  transition: 0.3s;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+body .works .works-right .title {
+  color: rgb(193, 198, 191);
+  background-color: rgb(83, 14, 26);
 }/*# sourceMappingURL=style.css.map */

@@ -18,6 +18,7 @@ $white: rgb(193, 198, 191);
 
 
 body {
+    background-color: $white;
 
     .navbar {
         background-color: $white  !important;
@@ -31,8 +32,6 @@ body {
             font-family: 'Helvetica';
             color: $redhover  !important;
         }
-
-
     }
 
     .hero {
@@ -53,7 +52,6 @@ body {
                 $white,
             );
         background-size: 100%;
-
     }
 
     .hero-image {
@@ -66,10 +64,60 @@ body {
         display: flex;
         background-color: $white;
         width: 100vw;
+        padding-bottom: 50px;
 
         .about {
             width: 100vw;
+            font-family: 'Helvetica';
+            font-size: large;
+            color: $red  !important;
         }
     }
 
+    .works {
+        width: 100vw;
+        font-family: 'Helvetica';
+        background-color: $white;
+
+        .works-left {
+
+            img {
+                border: 10px solid $red;
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+            img:hover {
+                transition: .3s;
+                filter: blur(4px);
+                -webkit-filter: blur(4px);
+            }
+
+            .title {
+                color: $white;
+                background-color: $red;
+                text-decoration: none !important;
+            }
+        }
+
+        .works-right {
+
+            img {
+                border: 10px solid $red;
+                max-width: 100%;
+                max-height: 100%;
+            }
+
+            img:hover {
+                transition: .3s;
+                filter: blur(4px);
+                -webkit-filter: blur(4px);
+            }
+
+            .title {
+                color: $white;
+                background-color: $red;
+            }
+        }
+    }
 }
