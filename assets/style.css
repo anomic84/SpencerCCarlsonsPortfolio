@@ -7,6 +7,7 @@
 
 body {
   background-color: rgb(193, 198, 191);
+  height: 100%;
 }
 body .navbar {
   background-color: rgb(193, 198, 191) !important;
@@ -52,40 +53,45 @@ body .works {
   font-family: "Helvetica";
   background-color: rgb(193, 198, 191);
 }
-body .works .works-left img {
+body .works .works-left {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+body .works .works-left .work {
+  height: 400px;
+  width: 550px;
+}
+body .works .works-left .work img {
   border: 10px solid rgb(83, 14, 26);
   max-width: 100%;
   max-height: 100%;
+  height: 300px;
+  width: 100%;
 }
-body .works .works-left img:hover {
+body .works .works-left .work img:hover {
   transition: 0.3s;
   filter: blur(4px);
   -webkit-filter: blur(4px);
 }
-body .works .works-left .title {
+body .works .works-left .work .title {
   color: rgb(193, 198, 191);
   background-color: rgb(83, 14, 26);
-  text-decoration: none !important;
+  text-decoration: none;
 }
-body .works .works-right img {
-  border: 10px solid rgb(83, 14, 26);
-  max-width: 100%;
-  max-height: 100%;
+body .works .works-left .work .title:hover {
+  color: rgb(219, 219, 219);
 }
-body .works .works-right img:hover {
-  transition: 0.3s;
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
-}
-body .works .works-right .title {
-  color: rgb(193, 198, 191);
-  background-color: rgb(83, 14, 26);
+body .works .works-left .work h3 {
+  text-decoration: none;
 }
 body footer {
   margin-top: 50px;
   width: 100vw;
   color: rgb(193, 198, 191);
   background-color: rgb(83, 14, 26);
+  margin: 0 !important;
 }
 body footer .contact {
   padding-left: 20px;
@@ -96,12 +102,52 @@ body footer .list {
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 20px;
+  list-style: none;
 }
 body footer .list .item {
-  list-style: none;
+  border: 3px dashed rgb(193, 198, 191);
+  padding: 5px;
   text-decoration: none;
   color: rgb(193, 198, 191);
+  font-size: 25px;
 }
 body footer .list .item:hover {
   color: rgb(219, 219, 219);
+  background-color: rgb(182, 109, 121);
+}
+
+@media (max-width: 576px) {
+  body .hero-image {
+    border: 5px solid rgb(83, 14, 26);
+  }
+  body .works .works-left .work {
+    height: 200px;
+    width: 300px;
+  }
+  body .works .works-left .work img {
+    border: 5px solid rgb(83, 14, 26);
+    max-width: 100%;
+    max-height: 100%;
+  }
+  body .works .works-left .work .title {
+    font-size: medium;
+  }
+}
+@media (max-width: 768px) {
+  body .works .works-left .work {
+    height: 200px;
+    width: 300px;
+  }
+}
+@media (max-width: 1024px) {
+  body .works .works-left .work {
+    height: 300px;
+    width: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  body .works .works-left .work {
+    height: 350px;
+    width: 500px;
+  }
 }/*# sourceMappingURL=style.css.map */
