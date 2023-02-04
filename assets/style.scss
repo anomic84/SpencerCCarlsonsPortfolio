@@ -134,11 +134,13 @@ body {
 
 
         .contact {
-            padding-left: 20px;
+            padding-bottom: 20px;
             padding-top: 20px;
+            text-decoration: underline;
         }
 
         .list {
+
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -147,7 +149,7 @@ body {
 
             .item {
                 border: 3px dashed $white;
-                padding: 5px;
+                padding: 10px;
                 text-decoration: none;
                 color: $white;
                 font-size: 25px;

@@ -94,8 +94,9 @@ body footer {
   margin: 0 !important;
 }
 body footer .contact {
-  padding-left: 20px;
+  padding-bottom: 20px;
   padding-top: 20px;
+  text-decoration: underline;
 }
 body footer .list {
   display: flex;
@@ -106,7 +107,7 @@ body footer .list {
 }
 body footer .list .item {
   border: 3px dashed rgb(193, 198, 191);
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
   color: rgb(193, 198, 191);
   font-size: 25px;
