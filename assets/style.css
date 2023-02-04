@@ -80,4 +80,28 @@ body .works .works-right img:hover {
 body .works .works-right .title {
   color: rgb(193, 198, 191);
   background-color: rgb(83, 14, 26);
+}
+body footer {
+  margin-top: 50px;
+  width: 100vw;
+  color: rgb(193, 198, 191);
+  background-color: rgb(83, 14, 26);
+}
+body footer .contact {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+body footer .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+body footer .list .item {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(193, 198, 191);
+}
+body footer .list .item:hover {
+  color: rgb(219, 219, 219);
 }/*# sourceMappingURL=style.css.map */
