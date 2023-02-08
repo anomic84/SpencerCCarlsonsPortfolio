@@ -87,11 +87,11 @@ body .works .works-left .work h3 {
   text-decoration: none;
 }
 body footer {
-  margin-top: 50px;
   width: 100vw;
   color: rgb(193, 198, 191);
   background-color: rgb(83, 14, 26);
-  margin: 0 !important;
+  padding-bottom: 30px;
+  border-top: 5px groove rgb(83, 14, 26);
 }
 body footer .contact {
   padding-bottom: 20px;
@@ -101,13 +101,12 @@ body footer .contact {
 body footer .list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 20px;
+  justify-content: space-around;
   list-style: none;
 }
 body footer .list .item {
-  border: 3px dashed rgb(193, 198, 191);
-  padding: 10px;
+  border: 5px outset rgb(193, 198, 191);
+  padding: 10px 50px;
   text-decoration: none;
   color: rgb(193, 198, 191);
   font-size: 25px;
@@ -117,13 +116,31 @@ body footer .list .item:hover {
   background-color: rgb(182, 109, 121);
 }
 
+@media (max-width: 360px) {
+  body .hero-image {
+    border: 5px solid rgb(83, 14, 26);
+  }
+  body .works .works-left .work {
+    max-width: fit-content;
+  }
+  body .works .works-left .work img {
+    border: 5px solid rgb(83, 14, 26);
+    max-width: fit-content;
+    max-height: 100%;
+    height: 150px;
+    width: 100%;
+  }
+  body .works .works-left .work .title {
+    font-size: medium;
+  }
+}
 @media (max-width: 576px) {
   body .hero-image {
     border: 5px solid rgb(83, 14, 26);
   }
   body .works .works-left .work {
     height: 200px;
-    width: 300px;
+    width: 100px;
   }
   body .works .works-left .work img {
     border: 5px solid rgb(83, 14, 26);

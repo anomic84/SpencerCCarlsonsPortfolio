@@ -16,6 +16,9 @@ $whitehover: rgb(219, 219, 219);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+// html {
+//     height: 100%;
+// }
 
 body {
     background-color: $white;
@@ -79,7 +82,7 @@ body {
         width: 100vw;
         font-family: 'Helvetica';
         background-color: $white;
-
+        // margin-bottom: 250px;
 
 
         .works-left {
@@ -89,9 +92,9 @@ body {
             justify-content: center;
 
             .work {
-
                 height: 400px;
                 width: 550px;
+
 
                 img {
                     border: 10px solid $red;
@@ -126,12 +129,18 @@ body {
     }
 
     footer {
-        margin-top: 50px;
+        // position: fixed !important;
+        // margin-top: 250px;
+        // background: repeating-linear-gradient(to bottom,
+        //         $red,
+        //         $red 70%,
+        //         $white,
+        //     );
         width: 100vw;
         color: $white;
         background-color: $red;
-        margin: 0 !important;
-
+        padding-bottom: 30px;
+        border-top: 5px groove $red;
 
         .contact {
             padding-bottom: 20px;
@@ -139,20 +148,23 @@ body {
             text-decoration: underline;
         }
 
+        // ul
+
         .list {
 
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
-            padding-bottom: 20px;
+            justify-content: space-around;
+            // padding-bottom: 20px;
             list-style: none;
 
             .item {
-                border: 3px dashed $white;
-                padding: 10px;
+                border: 5px outset $white;
+                padding: 10px 50px;
                 text-decoration: none;
                 color: $white;
                 font-size: 25px;
+                // border-style: ;
             }
 
             .item:hover {
@@ -161,6 +173,39 @@ body {
             }
         }
     }
+}
+
+@media (max-width: 360px) {
+    body {
+        .hero-image {
+            border: 5px solid $red;
+        }
+
+        .works {
+            .works-left {
+                .work {
+
+
+                    max-width: fit-content;
+
+                    // width: 50vw;
+
+                    img {
+                        border: 5px solid $red;
+                        max-width: fit-content;
+                        max-height: 100%;
+                        height: 150px;
+                        width: 100%;
+                    }
+
+                    .title {
+                        font-size: medium;
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -173,7 +218,7 @@ body {
             .works-left {
                 .work {
                     height: 200px;
-                    width: 300px;
+                    width: 100px;
 
                     img {
                         border: 5px solid $red;
