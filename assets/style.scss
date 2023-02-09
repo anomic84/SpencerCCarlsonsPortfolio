@@ -114,6 +114,7 @@ body {
                     color: $white;
                     background-color: $red;
                     text-decoration: none;
+                    width: 100%;
                 }
 
                 .title:hover {
@@ -177,13 +178,11 @@ body {
         .works {
             .works-left {
                 .work {
-                    width: 150px !important;
+                    height: 150px;
+                    width: 200px;
 
                     img {
                         border: 5px solid $red;
-                        // max-width: 200px;
-                        // max-height: 100%;
-                        // height: 150px;
                         width: 100%;
                     }
 
@@ -199,6 +198,11 @@ body {
 @media (max-width: 400px) {
     body {
         footer {
+            .contact {
+                padding-top: 5px !important;
+                padding-bottom: 5px !important;
+            }
+
             .list {
                 .item {
                     padding: 5px 15px !important;
@@ -210,18 +214,38 @@ body {
 
 @media (max-width: 440px) {
     body {
+        .works {
+            .works-left {
+                .work {
+                    height: 200px !important;
+                    width: 350px !important;
+
+
+                    img {
+                        border: 5px solid $red;
+                        height: 240px;
+                        width: 100%;
+                    }
+
+                    .title {
+                        font-size: 15px !important;
+                    }
+                }
+            }
+        }
+
         footer {
-            padding-bottom: 10px !important;
+            padding-bottom: 10px;
 
             .contact {
-                font-size: 25px !important;
-                padding-bottom: 10px !important;
-                padding-top: 10px !important;
+                font-size: 25px;
+                padding-bottom: 10px;
+                padding-top: 10px;
             }
 
             .list {
                 .item {
-                    font-size: 10px !important;
+                    font-size: 10px;
 
                 }
             }
@@ -238,12 +262,12 @@ body {
         .works {
             .works-left {
                 .work {
-                    height: 200px !important;
-                    width: 250px !important;
+                    height: 200px;
+                    width: 250px;
 
                     img {
-                        border: 5px solid $red  !important;
-                        height: 200px !important;
+                        border: 5px solid $red ;
+
                     }
 
                     .title {
@@ -257,8 +281,8 @@ body {
         footer {
             .contact {
                 font-size: 30px;
-                padding-bottom: 10px !important;
-                padding-top: 5px !important;
+                padding-bottom: 10px;
+                padding-top: 5px;
                 text-decoration: underline;
 
 
@@ -268,7 +292,7 @@ body {
                 .item {
                     border: 3px outset $white;
                     padding: 10px 30px;
-                    font-size: 12px !important;
+                    font-size: 12px;
                 }
             }
         }
@@ -305,17 +329,17 @@ body {
         .works {
             .works-left {
                 .work {
-                    height: 200px !important;
-                    width: 300px !important;
+                    height: 200px;
+                    width: 300px;
 
                     img {
                         border: 10px solid $red;
-                        height: 200px;
+
 
                     }
 
                     .title {
-                        font-size: 15px !important;
+                        font-size: 15px;
                     }
                 }
 
@@ -342,12 +366,11 @@ body {
 
                     img {
                         border: 10px solid $red;
-                        height: 260px;
                         width: 100%;
                     }
 
                     .title {
-                        font-size: 18px !important;
+                        font-size: 18px;
                     }
                 }
 
@@ -357,7 +380,7 @@ body {
         footer {
             .list {
                 .item {
-                    font-size: 18px !important;
+                    font-size: 18px;
                 }
             }
         }

@@ -81,6 +81,7 @@ body .works .works-left .work .title {
   color: rgb(193, 198, 191);
   background-color: rgb(83, 14, 26);
   text-decoration: none;
+  width: 100%;
 }
 body .works .works-left .work .title:hover {
   color: rgb(219, 219, 219);
@@ -125,7 +126,8 @@ body footer .list .item:hover {
     border: 5px solid rgb(83, 14, 26);
   }
   body .works .works-left .work {
-    width: 150px !important;
+    height: 150px;
+    width: 200px;
   }
   body .works .works-left .work img {
     border: 5px solid rgb(83, 14, 26);
@@ -136,21 +138,37 @@ body footer .list .item:hover {
   }
 }
 @media (max-width: 400px) {
+  body footer .contact {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
   body footer .list .item {
     padding: 5px 15px !important;
   }
 }
 @media (max-width: 440px) {
+  body .works .works-left .work {
+    height: 200px !important;
+    width: 350px !important;
+  }
+  body .works .works-left .work img {
+    border: 5px solid rgb(83, 14, 26);
+    height: 240px;
+    width: 100%;
+  }
+  body .works .works-left .work .title {
+    font-size: 15px !important;
+  }
   body footer {
-    padding-bottom: 10px !important;
+    padding-bottom: 10px;
   }
   body footer .contact {
-    font-size: 25px !important;
-    padding-bottom: 10px !important;
-    padding-top: 10px !important;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
   body footer .list .item {
-    font-size: 10px !important;
+    font-size: 10px;
   }
 }
 @media (max-width: 576px) {
@@ -158,26 +176,25 @@ body footer .list .item:hover {
     border: 5px solid rgb(83, 14, 26);
   }
   body .works .works-left .work {
-    height: 200px !important;
-    width: 250px !important;
+    height: 200px;
+    width: 250px;
   }
   body .works .works-left .work img {
-    border: 5px solid rgb(83, 14, 26) !important;
-    height: 200px !important;
+    border: 5px solid rgb(83, 14, 26);
   }
   body .works .works-left .work .title {
     font-size: 12px;
   }
   body footer .contact {
     font-size: 30px;
-    padding-bottom: 10px !important;
-    padding-top: 5px !important;
+    padding-bottom: 10px;
+    padding-top: 5px;
     text-decoration: underline;
   }
   body footer .list .item {
     border: 3px outset rgb(193, 198, 191);
     padding: 10px 30px;
-    font-size: 12px !important;
+    font-size: 12px;
   }
 }
 @media (max-width: 768px) {
@@ -194,15 +211,14 @@ body footer .list .item:hover {
 }
 @media (max-width: 800px) {
   body .works .works-left .work {
-    height: 200px !important;
-    width: 300px !important;
+    height: 200px;
+    width: 300px;
   }
   body .works .works-left .work img {
     border: 10px solid rgb(83, 14, 26);
-    height: 200px;
   }
   body .works .works-left .work .title {
-    font-size: 15px !important;
+    font-size: 15px;
   }
   body footer .list .item {
     font-size: 15px;
@@ -215,14 +231,13 @@ body footer .list .item:hover {
   }
   body .works .works-left .work img {
     border: 10px solid rgb(83, 14, 26);
-    height: 260px;
     width: 100%;
   }
   body .works .works-left .work .title {
-    font-size: 18px !important;
+    font-size: 18px;
   }
   body footer .list .item {
-    font-size: 18px !important;
+    font-size: 18px;
   }
 }
 @media (max-width: 1024px) {
