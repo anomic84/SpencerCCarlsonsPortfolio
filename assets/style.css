@@ -52,6 +52,8 @@ body .works {
   width: 100vw;
   font-family: "Helvetica";
   background-color: rgb(193, 198, 191);
+  display: flex;
+  justify-content: center;
 }
 body .works .works-left {
   display: inline-flex;
@@ -102,6 +104,8 @@ body footer .contact {
   padding-top: 20px;
   text-decoration: underline;
   font-size: 30px;
+  display: flex;
+  justify-content: center;
 }
 body footer .list {
   display: flex;

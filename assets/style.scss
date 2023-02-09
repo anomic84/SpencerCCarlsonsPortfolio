@@ -82,6 +82,8 @@ body {
         width: 100vw;
         font-family: 'Helvetica';
         background-color: $white;
+        display: flex;
+        justify-content: center;
 
         // margin-bottom: 250px;
         .works-left {
@@ -141,6 +143,8 @@ body {
             padding-top: 20px;
             text-decoration: underline;
             font-size: 30px;
+            display: flex;
+            justify-content: center;
         }
 
         // ul
