@@ -58,6 +58,7 @@ body .works .works-left {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 body .works .works-left .work {
   height: 400px;
@@ -98,6 +99,7 @@ body footer .contact {
   padding-bottom: 20px;
   padding-top: 20px;
   text-decoration: underline;
+  font-size: 30px;
 }
 body footer .list {
   display: flex;
