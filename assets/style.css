@@ -98,19 +98,18 @@ body footer {
   background-color: rgb(83, 14, 26);
   padding-bottom: 30px;
   border-top: 5px groove rgb(83, 14, 26);
+  display: flex;
+  flex-direction: column;
 }
 body footer .contact {
   padding-bottom: 20px;
   padding-top: 20px;
   text-decoration: underline;
   font-size: 30px;
-  display: flex;
-  justify-content: center;
 }
 body footer .list {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style: none;
 }
 body footer .list .item {

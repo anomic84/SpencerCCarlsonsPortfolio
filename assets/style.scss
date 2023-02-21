@@ -137,24 +137,23 @@ body {
         background-color: $red;
         padding-bottom: 30px;
         border-top: 5px groove $red;
+        display: flex;
+        flex-direction: column;
 
         .contact {
             padding-bottom: 20px;
             padding-top: 20px;
             text-decoration: underline;
             font-size: 30px;
-            display: flex;
-            justify-content: center;
+
+
         }
 
-        // ul
+
 
         .list {
-
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            // padding-bottom: 20px;
+            justify-content: space-evenly;
             list-style: none;
 
             .item {
