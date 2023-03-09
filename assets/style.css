@@ -85,11 +85,21 @@ body .works .works-left .work .title {
   text-decoration: none;
   width: 100%;
 }
+body .works .works-left .work .descrip {
+  color: rgb(193, 198, 191);
+  background-color: rgb(83, 14, 26);
+  text-decoration: none;
+  width: 100%;
+}
 body .works .works-left .work .title:hover {
   color: rgb(219, 219, 219);
 }
 body .works .works-left .work h3 {
   text-decoration: none;
+}
+body .works .works-left .work p {
+  text-decoration: none;
+  font-size: small;
   padding-bottom: 10px;
 }
 body footer {
@@ -153,6 +163,7 @@ body footer .list .item:hover {
   body .works .works-left .work {
     height: 200px !important;
     width: 350px !important;
+    margin-bottom: 90px;
   }
   body .works .works-left .work img {
     border: 5px solid rgb(83, 14, 26);

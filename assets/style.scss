@@ -119,12 +119,24 @@ body {
                     width: 100%;
                 }
 
+                .descrip {
+                    color: $white;
+                    background-color: $red;
+                    text-decoration: none;
+                    width: 100%;
+                }
+
                 .title:hover {
                     color: $whitehover;
                 }
 
                 h3 {
                     text-decoration: none;
+                }
+
+                p {
+                    text-decoration: none;
+                    font-size: small;
                     padding-bottom: 10px;
                 }
             }
@@ -222,7 +234,7 @@ body {
                 .work {
                     height: 200px !important;
                     width: 350px !important;
-
+                    margin-bottom: 90px;
 
                     img {
                         border: 5px solid $red;
